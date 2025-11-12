@@ -1,0 +1,38 @@
+*{
+    background-color: #1a1a1a;
+padding: 0%;
+margin: 0%;
+}
+
+.banner{
+height: 450px;
+width: 750px;
+}
+
+li a{
+
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px;
+ }
+
+ul{
+    display: flex; /*ativa a propriedade de alinhamento*/
+    flex-direction: row; /*coloca os elementos na horizontal*/
+}
+
+li{
+list-style: none; /*remove os pontos das lista*/
+}
+
+nav{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+
+ #logo{
+height: 100px;
+width: 100px;
+ }
