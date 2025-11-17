@@ -1,65 +1,82 @@
 *{
+    
+    padding: 0%;
+    margin: 0%;
+    }
+    
+    
+    body{
     background-color: #1a1a1a;
-padding: 0%;
-margin: 0%;
-}
+    }
+    
+    .banner{
+    height: 450px;
+    width: 850px;
+    background-image: url("./assents/Banner.png"); /ele adiciona uma imagem como fundo/
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    }
 
-.banner{
-height: 450px;
-width: 850px;
-background-image: url("./assents/banner.png") ; /*Ele adiciona uma imagem como fundo*/
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-#logo{
-    height: 100px;
-    width: 100px;
-}
-
-li a{
-
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 20px;
- }
-
-ul{
-    display: flex; /*ativa a propriedade de alinhamento*/
-    flex-direction: row; /*coloca os elementos na horizontal*/
-}
-
-li{
-list-style: none; /*remove os pontos das lista*/
-}
-
-nav{
- display: flex;
- flex-direction: row;
- align-items: center;
- justify-content: space-between;
-}
-
-.bi{
+    #logo{
+        height: 100px;
+        width: 100px;
+         }
+    
+    li a{
+    
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 25px;
+     }
+    
+    ul{
+        display: flex; /*tiva a propriedade de alinhamento*/
+        flex-direction: row; /*coloca os elementos na horizontal*/
+    }
+    
+    li{
+    list-style: none; /*remove os pontos das lista*/
+    }
+    
+    nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+    
+     .bi{
     font-size: 40px;
     color: #4c544c;
-}
+    
+     }
+    
+     .texto-banner{
+        color: #ffffff;
+       font-size: 25px;
+       
+     }
+    
+     .btn{
+        height: 45px;
+        width: 115px;
+        border-radius: 55px; /*Deixa a  borda redonda*/
+        border: none; /*Serve para remover a borda*/
+        color: #ffffff;
+        font-size: 19px;
+        background-color: #333333;
+        margin: 30px
+     }
+     
+     .banner-estrutura{
+        width: 220px;
+     }
 
-.texto-banner{
-    color: #ffffff;
-    font-size: 25px;
-}
-
-.btn{
-height: 40px;
-width: 130px;
-border-radius: 55px; /*Deixa a borda rendondada*/
-border: none; /*Serve para remover a borda*/
-color: #ffffff;
-font-weight: bold;
-font-size: 19px;
-background-color: #333333;
-}
-
-
+     .section-banner{
+      display: flex;
+      justify-content: center;
+     }
