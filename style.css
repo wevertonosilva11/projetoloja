@@ -12,7 +12,7 @@
     .banner{
     height: 450px;
     width: 850px;
-    background-image: url("./assents/Banner.png"); /ele adiciona uma imagem como fundo/
+    background-image: url("./assents/Banner.png"); /*ele adiciona uma imagem como fundo*/
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -56,8 +56,9 @@
      }
     
      .texto-banner{
-        color: #ffffff;
+       color: #ffffff;
        font-size: 25px;
+       margin: 20px;
        
      }
     
@@ -69,7 +70,7 @@
         color: #ffffff;
         font-size: 19px;
         background-color: #333333;
-        margin: 30px
+        margin: 20px
      }
      
      .banner-estrutura{
@@ -80,3 +81,50 @@
       display: flex;
       justify-content: center;
      }
+
+    .titulo{
+   color: #ffffff ;
+   font-weight:bold ;
+   font-size: 35px;
+   }
+
+   .estrutura-titulo{
+     display: flex;
+     justify-content: center;
+     padding: 30px;
+   }
+
+   .produtos{
+      height: 350px;
+      width: 250px;
+   }
+
+   .valor{
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 30px;
+   }
+   .card-texto{
+    display:flex ;
+    justify-content: center;
+   }
+
+   .card{
+      width: 250px;
+      height: 450px;
+   }
+   .cores{
+      height: 20px;
+      width: 15px;
+      border-radius: 50px;
+      border: none;
+   }
+
+   .verde{
+      background-color: darkgreen;}
+
+   .azul{
+      background-color: blue;}
+
+   .roxo{ 
+   background-color: darkorchid; }
